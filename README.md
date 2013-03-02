@@ -1,4 +1,4 @@
 Прототип интерфейса проекта "Эвакуатор"
 ========================
 
-Live demo: <a href="http://laststand.in/eva/index.html"></a>
+Live demo: [EvaPrototype](http://laststand.in/eva/index.html "EvaPrototype")
