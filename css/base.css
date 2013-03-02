@@ -168,3 +168,26 @@ border-radius: 5px;
 .phone {
 	display: none;
 }
+
+.reset {
+	display: block;
+	position: absolute;
+	bottom: 55px;
+	right: 140px;
+	height: 55px;
+	width: 50px;
+	background: url('../images/reset.png');
+	cursor: pointer;
+}
+
+.reset:hover {
+	background: url('../images/reset_down.png');
+}
+
+.sprav {
+	display: inline-block;
+	padding: 5px;
+	background: #222;
+	border-radius: 4px;
+	max-width: 300px;
+}

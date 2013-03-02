@@ -15,6 +15,11 @@ $(document).ready(function(){
 	finish = $('#finish');
 	cont = $('#continue');
 
+	$('.reset').on('click',function(){
+		$('.mainmenu, .footer, .narrowlogo, .phone, .goodbye, .mainstuff, .info, .success').hide();
+		all.show('slow');
+	});
+
 	main_exit.on('click',function(){
 		all.hide('slow',function(){goodbye.show('slow'); narrow.show(); });
 	});
@@ -41,6 +46,10 @@ $(document).ready(function(){
 							phone.hide('slow',function(){
 								$('.success').show('slow');
 							});
+						});
+						phone_back.on('click',function(){
+							phone.hide();
+							main.show();
 						});
 					});
 				});
