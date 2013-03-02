@@ -1,0 +1,108 @@
+body {
+	background: url('../images/tiny_grid.png');
+	font-family: Roboto;
+	color: #e85700;
+}
+
+div.phone_out {
+	display: block;
+	height: 815px;
+	width: 420px;
+	background: url('../images/phone.png');
+	position: absolute;
+	left:50%;
+	margin-left: -210px;
+}
+
+div.innerbox {
+	display: block;
+	overflow: hidden;
+	height: 623px;
+	width: 345px;
+	background: url('../images/phone_bg.png');
+	position: absolute;
+	left: 36px;
+	top: 79px;
+}
+
+div.content {
+	padding:6px;
+}
+
+div.logo {
+	position: absolute;
+	width: 290px;
+	height: 100px;
+	display: block;
+	left:50%;
+	margin-left:-151px;
+	margin-top:20px;
+	background: url('../images/logo_small.png');
+}
+
+div.menubutton {
+	position: absolute;
+	display: block;
+	width: 250px;
+	height: 75px;
+	left: 50%;
+	margin-left:-125px;
+	background: url('../images/menubutton.png');
+	cursor: pointer;
+}
+
+.menubutton span {
+	display: inline-block;
+	text-align: right;
+	width: 75%;
+	color: #222;
+	font-weight: bold;
+	margin-top:25px;
+	text-shadow: 0px 1px 0px #aaa;
+}
+
+.menubutton:active {
+	background: url('../images/menubutton_down.png');
+}
+
+.icon {
+	display: block;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	right: 20px;
+	top:25px;
+}
+
+.wheel { background: url('../images/wheel_i.png'); }
+.info { background: url('../images/info_i.png'); width: 12px; right: 24px;}
+.exit { background: url('../images/exit_i.png'); }
+
+.footer {
+	position: absolute;
+	bottom:5px;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
+.bottom {
+	display: inline-block;
+	position: absolute;
+	width: 170px;
+	height: 120px;
+	bottom: -20px;
+	left: 50%;
+	margin-left:-92px;
+	background: url('../images/foot.png');
+}
+
+.bottom span {
+position: absolute;
+bottom: 12px;
+left: 10px;
+background: #222;
+padding: 3px;
+border-radius: 5px;
+}
