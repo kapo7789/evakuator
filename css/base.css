@@ -4,6 +4,26 @@ body {
 	color: #e85700;
 }
 
+.narrowlogo {
+	display: block;
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	padding: 0;
+	top: 0;
+	display: none;
+}
+.narrow_pic {
+display: block;
+height: 40px;
+width: 300px;
+background: url('../images/logo_narrow.png');
+position: absolute;
+left: 50%;
+margin-left: -150px;
+}
+
 div.phone_out {
 	display: block;
 	height: 815px;
@@ -77,6 +97,9 @@ div.menubutton {
 .wheel { background: url('../images/wheel_i.png'); }
 .info { background: url('../images/info_i.png'); width: 12px; right: 24px;}
 .exit { background: url('../images/exit_i.png'); }
+.back { background: url('../images/back_i.png'); }
+.iforward {background: url('../images/forward_i.png');}
+.ifinish {background: url('../images/finish_i.png');}
 
 .footer {
 	position: absolute;
@@ -105,4 +128,43 @@ left: 10px;
 background: #222;
 padding: 3px;
 border-radius: 5px;
+}
+
+.goodbye {
+	width: 100%;
+	text-align: center;
+	margin-top:40%;
+	font-weight: bold;
+	font-size:24px;
+	display: none;
+}
+
+.success {
+	width: 100%;
+	text-align: center;
+	margin-top:40%;
+	font-weight: bold;
+	font-size:24px;
+	display: none;
+}
+
+.info {
+	display: none;
+	margin-left:6px;
+	margin-top:90px;
+}
+.mainstuff {display: none;}
+.box { min-width: 300px; display: inline-block; background: #e85700; margin:5px; padding: 5px; border-radius: 4px; color: #222; }
+.box i { font-style: normal; border-bottom: dotted 1px #222; cursor: pointer;}
+
+#gmap {
+	display: block;
+	width: 100%;
+	height: 400px;
+	margin-left:0;
+	margin-top:40px;
+}
+
+.phone {
+	display: none;
 }

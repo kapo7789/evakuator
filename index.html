@@ -5,27 +5,61 @@
 	<title>Eva Prototype 1</title>
 	<link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/base.css" type="text/css" />
+	<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxFAuE_HNhHnRezMeSNUDQPUjsHQBoZ4k&sensor=true">
+    </script>
+ <script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
 </head>
 <body>
 	<div class="phone_out">
 		<div class="innerbox">
+			<div class="narrowlogo"><div class="narrow_pic"></div></div>
 			<div class="content">
 				<!-- step 1 LOGO AND MENU -->
+				<div class="mainmenu">
 					<div class="logo"></div>
-					<div class="menubutton" style="top:240px;"><span>Вызвать эвакуатор</span><i class="icon wheel"></i></div>
-					<div class="menubutton" style="top:325px; "><span>О программе</span><i class="icon info"></i></div>
-					<div class="menubutton" style="top:410px; "><span>Выход</span><i class="icon exit"></i></div>
+					<div class="menubutton" id="main_call" style="top:240px;"><span>Вызвать эвакуатор</span><i class="icon wheel"></i></div>
+					<div class="menubutton" id="main_info" style="top:325px; "><span>О программе</span><i class="icon info"></i></div>
+					<div class="menubutton" id="main_exit" style="top:410px; "><span>Выход</span><i class="icon exit"></i></div>
+				</div>
 				<!-- step 1 END -->
 
-				<!-- info -->
-					<div class="footer">
-						<div class="bottom"><span>developed by [lss]olutions</span></div>
-					</div>
+				<!-- footer -->
+				<div class="footer">
+					<div class="bottom"><span>developed by [lss]olutions</span></div>
+				</div>
 				<!-- -->
+
+				<div class="info">
+					<div class="box"><b>Для чего:</b> для легкого способа вызывать эвакуатор на место проишествия</div>
+					<div class="box"><b>Почему:</b> удобный способ определения вашего местонахождения. 
+						Вызов буквально в 2 клика!</div>
+					<div class="box"><b>Ещё вопросы?</b> звоните нам 24 часа в сутки по номеру <i>8-7273-66-55-44</i></div>
+					<div class="menubutton" id="info_back" style="bottom:30px; "><span>Назад</span><i class="icon back"></i></div>
+				</div>
+
+				<!-- MAIN MAIN MAIN MAIN MAIN -->
+				<div class="mainstuff">
+					<div id="gmap"></div>
+					<div class="menubutton" id="continue" style="bottom:90px;"><span>Продолжить</span><i class="icon iforward"></i></div>
+					<div class="menubutton" id="main_back" style="bottom:10px; "><span>Назад</span><i class="icon back"></i></div>
+				</div>
+
+				<div class="phone">
+					<div style="margin-top: 60px">
+					<div class="box" style="margin-left:10px">Введите номер вашего телефона:</div>
+					<input type="text" name="phone_number" style="margin-left:13px; width: 300px; margin-top:30px; height: 24px; font-size:22px" />
+					<div class="menubutton" id="finish" style="bottom:90px;"><span>Оформить</span><i class="icon ifinish"></i></div>
+					<div class="menubutton" id="phone_back" style="bottom:10px; "><span>Назад</span><i class="icon back"></i></div>
+					</div>
+				</div>
+				<!-- END END END END END END -->
+
+				<div class="goodbye">GOOD BYE!</div>
+				<div class="success">ВСЕМ СПАСИБО</div>
 			</div>
 		</div>
 	</div>
-<script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
