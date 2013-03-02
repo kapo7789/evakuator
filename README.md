@@ -1,4 +1,4 @@
-jQuery/HTML прототип интерфейса проекта "Эвакуатор"
+Прототип интерфейса проекта "Эвакуатор"
 ========================
 
-Nothing to explain ... yet
+Live demo: <a href="http://laststand.in/eva/index.html"></a>
